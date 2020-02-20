@@ -1,0 +1,17 @@
+h1.title.display-3 Hi 
+
+ul.nav role="tablist" 
+  li.nav-item
+    a.display-4.nav-link.active aria-controls="home" aria-selected="true" data-toggle="tab" href="#cvss2" role="tab" CVSS 2.0
+  li.nav-item
+    a.display-4.nav-link aria-controls="profile" aria-selected="false" data-toggle="tab" href="#cvss3" role="tab"  CVSS 3.0
+
+.tab-content
+  #cvss2.tab-pane.fade.show.active aria-labelledby="home-tab" role="tabpanel" == slim :form
+  #cvss3.tab-pane.fade aria-labelledby="contact-tab" role="tabpanel" cvss3
+
+
+
+
+
+

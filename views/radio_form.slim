@@ -1,0 +1,8 @@
+h4 
+  label.radio-label for="#{name_s}" = name
+.row
+  - values.each_with_index do |value, index|
+    .form-check.col class="#{full_names[index]+name_s}"
+      input.form-check-input type="radio" required="true" name="#{name_s}" id="#{full_names[index]+name_s}" value="#{value}" /
+      label.form-check-label for="#{full_names[index]+name_s}" 
+        = full_names[index]

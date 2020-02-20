@@ -1,0 +1,11 @@
+form method="POST"
+
+  == slim :radio_form, locals: { name: "Вектор доступа", name_s: "av", values: %w[L A N], full_names: %w[Локальный Локально-сетевой Сетевой] }
+  == slim :radio_form, locals: { name: "Сложность доступа", name_s: "ac", values: %w[H M L], full_names: %w[Высокий Средний Низкий] }
+  == slim :radio_form, locals: { name: "Аутентификация", name_s: "au", values: %w[M S N], full_names: %w[Высокий Средний Низкий] }
+  == slim :radio_form, locals: { name: "Конфиденциальность", name_s: "c", values: %w[N P C], full_names: %w[Нулевое Частичное Полное] }
+  == slim :radio_form, locals: { name: "Воздействие на целостность", name_s: "i", values: %w[N P C], full_names: %w[Нулевое Частичное Полное] }
+  == slim :radio_form, locals: { name: "Воздействие на достпуность", name_s: "a", values: %w[N P C], full_names: %w[Нулевое Частичное Полное] }
+
+  button type="submit" class="btn btn-light mt-4 submit" Calculate
+

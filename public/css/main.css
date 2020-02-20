@@ -1,0 +1,84 @@
+body{
+  color: #fff;
+  background: #497dd0;
+}
+
+a{
+  color: #fff;
+}
+
+a:hover {
+  color: #fff;
+}
+
+.nav{
+  width: 100%;
+  display: table;
+  text-align: center;
+}
+
+.nav li{
+  display: table-cell;
+}
+
+.nav li:hover{
+  background: #fff; 
+}
+
+.nav li:hover a{
+  color: #497dd0;
+}
+
+.wrapper{
+  padding-top: 50px;
+}
+
+.title{
+}
+
+.btn{
+  border-radius: 1px;
+}
+
+.form-check{
+  padding: 10px;
+  color: #f8f9fa;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid #f8f9fa;
+  text-align: center;
+}
+
+.form-check:hover{
+  color: #497dd0;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+}
+
+.form-check:active{
+  color: #f8f9fa;
+  background-color: #497dd0;
+  border: 1px solid #f8f9fa;
+}
+
+.active-radio{
+  color: #497dd0;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+}
+
+.radio-label{
+  margin-top:10px;
+}
+
+.form-check-label{
+  width: 100%;
+}
+
+.form-check-input{
+  visibility: hidden
+}
+
+.submit{
+  width: 100%;
+}
